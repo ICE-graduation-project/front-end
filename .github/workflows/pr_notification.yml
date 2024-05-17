@@ -1,0 +1,12 @@
+name: Notify IFTTT on PR
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  run_if:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "으아악"
